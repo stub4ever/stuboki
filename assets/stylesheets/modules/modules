@@ -1,0 +1,109 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/*------------------------------------*\
+    #Utilities
+*------------------------------------*/
+/*------------------------------------*\
+    #functions
+\*------------------------------------*/
+/*
+  0. flex-grid system
+  1. FLEX JUSTIFY & ALIGN-ITEMS
+  2. RESET-LIST
+  3. POSITION
+  4. CLEARFIX
+  5. HIDDEN & INVISIBLE
+  */
+/*------------------------------------*\
+    #flex-grid system
+*------------------------------------*/
+/*------------------------------------*\
+    #1. GRID
+    \*------------------------------------*/
+/*------------------------------------*\
+    # 1. FLEX JUSTIFY & ALIGN-ITEMS
+    \*------------------------------------*/
+/*------------------------------------*\
+    #2. RESET-LIST
+    \*------------------------------------*/
+/*------------------------------------*\
+    #3. Position
+    \*------------------------------------*/
+/*------------------------------------*\
+    #4.Clearfix
+    \*------------------------------------*/
+/*------------------------------------*\
+    #5.Hidden & Invisible
+    \*------------------------------------*/
+/*------------------------------------*\
+    #Grid
+    *------------------------------------*/
+/*------------------------------------*\
+    #Fonts
+*------------------------------------*/
+@font-face {
+  font-family: 'okomito-light';
+  src: url("../fonts/Okomito-Light.eot");
+  src: url("../fonts/Okomito-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Okomito-Light.woff") format("woff"), url("../fonts/Okomito-Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'okomito-regular';
+  src: url("../fonts/Okomito-Regular.eot");
+  src: url("../fonts/Okomito-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Okomito-Regular.woff") format("woff"), url("../fonts/Okomito-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'okomito-med';
+  src: url("../fonts/Okomito-Medium.eot");
+  src: url("../fonts/Okomito-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Okomito-Medium.woff") format("woff"), url("../fonts/Okomito-Medium.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'okomito-bold';
+  src: url("../fonts/Okomito-Bold.eot");
+  src: url("../fonts/Okomito-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Okomito-Bold.woff") format("woff"), url("../fonts/Okomito-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'okomito-black';
+  src: url("../fonts/Okomito-Black.eot");
+  src: url("../fonts/Okomito-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Okomito-Black.woff") format("woff"), url("../fonts/Okomito-Black.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+/*------------------------------------*\
+    #Animations
+*------------------------------------*/
+@-webkit-keyframes fadeIn {
+  from {
+    -webkit-transform: translateY(-20px);
+    opacity: 0; }
+  to {
+    -webkit-transform: translateY(0);
+    opacity: 1; } }
+@-moz-keyframes fadeIn {
+  from {
+    -moz-transform: translateY(-20px);
+    opacity: 0; }
+  to {
+    -moz-transform: translateY(0);
+    opacity: 1; } }
+@keyframes fadeIn {
+  from {
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+    transform: translateY(-20px);
+    opacity: 0; }
+  to {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1; } }
